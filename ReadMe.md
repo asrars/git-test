@@ -54,13 +54,13 @@ Instead of manually entering your PAT for every HTTPS Git operation, you can cac
 
 ## Clone repository
 
-> $ git clone https://github.com/opsup/SAM.git
+> $ git clone https://github.com/<repository>
 
 ## Set git config
 
-> $ git config --global user.email support@outpostsentinel.com
+> $ git config --global user.email <email>
 >
-> $ git config --global user.name support 
+> $ git config --global user.name <name> 
 
 ## Check active branch
 
@@ -122,9 +122,9 @@ $ git add .
 
 > $ git push origin updated-code
 > 
-> Username for 'https://github.com': opsup
+> Username for 'https://github.com': <username>
 > 
-> Password for 'https://opsup@github.com': 
+> Password for 'https://xxxx@github.com': 
 > 
 > :
 > 
@@ -134,11 +134,11 @@ $ git add .
 
 > $ git pull origin updated-code 
 > 
-> Username for 'https://github.com': opsup
+> Username for 'https://github.com': <username>
 > 
-> Password for 'https://opsup@github.com': 
+> Password for 'https://xxxx@github.com': 
 > 
-> From https://github.com/opsup/SAM
+> From https://github.com/xxxx/xxxx
 > 
 >  \* branch            updated-code -> FETCH_HEAD
 > 
@@ -156,13 +156,13 @@ $ git add .
 
 > $ git clone <remote_URL>
 
-> $ git clone https://github.com/opsup/SAM.git
+> $ git clone https://github.com/xxxx/xxx.git
 > 
-> Cloning into 'SAM'...
+> Cloning into 'xxxx'...
 > 
 > Username for 'https://github.com': <username>
 > 
-> Password for 'https://opsup@github.com': <password>
+> Password for 'https://xxxx@github.com': <password>
 
 ## Running git config globally
 
